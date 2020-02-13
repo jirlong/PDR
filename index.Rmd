@@ -1,9 +1,12 @@
 --- 
-title: "A Minimal Book Example"
-author: "Yihui Xie"
+title: "Playing data with R"
+author: "Jilung Hsieh"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
-output: bookdown::gitbook
+output: 
+  bookdown::gitbook: default
+  bookdown::pdf_book: default
+  
 documentclass: book
 bibliography: [book.bib, packages.bib]
 biblio-style: apalike
